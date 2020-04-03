@@ -5,7 +5,7 @@ body, ul, li, h1, h2, a{
 }
 
 header{
-    background-color: red;
+    background-color: rgb(214, 26, 26);
     padding: 20px;
     text-align: center;
     width:100%;
@@ -61,7 +61,7 @@ header h1{
 }
 
 nav{
-    background-color: #F4F4F4;
+    background-color: rgb(245, 179, 179);
     padding: 20px;
     position: sticky;
     top: 92px;
@@ -78,11 +78,20 @@ nav li{
     width: 25%;
     display: inline-block;
     font-size: 24px;
+    
 }
 
-nav li a{
+nav li button{
+    
     text-decoration: none;
     color: #4B4B4B;
+    size: 250px;
+    padding: 40px;
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    max-width: 100%;
+    font-size: 60%;
 }
 
 main{
@@ -130,8 +139,10 @@ form button{
 }
 
 footer{
-    background: red;
+    background: rgb(214, 26, 26);
     text-align: center;
     font-size: 30px;
     padding: 5px;
+    position: ;
+    
 }
